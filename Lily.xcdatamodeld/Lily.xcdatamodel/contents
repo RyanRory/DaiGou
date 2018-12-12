@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="17D47" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Batchs" representedClassName="Batchs" syncable="YES" codeGenerationType="class">
+        <attribute name="carriage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="completed" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalcost" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalincome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalprofit" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Coupons" representedClassName="Coupons" syncable="YES" codeGenerationType="class">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deadline" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="expired" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="used" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Members" representedClassName="Members" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalconsumption" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Products" representedClassName="Products" syncable="YES" codeGenerationType="class">
+        <attribute name="costprice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sellprice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="store" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Sells" representedClassName="Sells" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arrived" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="batch" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="income" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="member" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productprice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalcost" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Batchs" positionX="-18" positionY="63" width="128" height="135"/>
+        <element name="Members" positionX="-54" positionY="-9" width="128" height="28"/>
+        <element name="Products" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="Sells" positionX="-36" positionY="9" width="128" height="178"/>
+        <element name="Coupons" positionX="-36" positionY="72" width="128" height="120"/>
+    </elements>
+</model>

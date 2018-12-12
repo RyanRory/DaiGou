@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A402CDDA1FE80100009AA1F3 /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402CDD91FE80100009AA1F3 /* FetchData.swift */; };
+		A402CDDC1FE80A1F009AA1F3 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402CDDB1FE80A1F009AA1F3 /* EditViewController.swift */; };
+		A41869071FD14DD4005341E7 /* ProfitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41869061FD14DD4005341E7 /* ProfitTableViewCell.swift */; };
+		A41869091FD14DF0005341E7 /* ProfitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41869081FD14DF0005341E7 /* ProfitViewController.swift */; };
+		A418690B1FD14E5F005341E7 /* AddBatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418690A1FD14E5F005341E7 /* AddBatchViewController.swift */; };
+		A418690D1FD14E6E005341E7 /* BatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418690C1FD14E6E005341E7 /* BatchViewController.swift */; };
+		A418690F1FD17C15005341E7 /* AddBatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418690E1FD17C15005341E7 /* AddBatchTableViewCell.swift */; };
+		A41869121FD42C7E005341E7 /* BatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41869111FD42C7E005341E7 /* BatchTableViewCell.swift */; };
+		A41B694C1FD120BC00FAD1A8 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41B694B1FD120BC00FAD1A8 /* RecordViewController.swift */; };
+		A41B694E1FD120CE00FAD1A8 /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41B694D1FD120CE00FAD1A8 /* RecordTableViewCell.swift */; };
+		A42DBBEA200055A100E51E19 /* DeleteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DBBE9200055A100E51E19 /* DeleteData.swift */; };
+		A474D3D3202595E800A05173 /* CouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A474D3D2202595E800A05173 /* CouponViewController.swift */; };
+		A474D3D620259A7900A05173 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A474D3D520259A7900A05173 /* ScannerViewController.swift */; };
+		A474D3D82025B6AF00A05173 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A474D3D72025B6AF00A05173 /* QRCodeViewController.swift */; };
+		A474D3DA2025DE3400A05173 /* CouponTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A474D3D92025DE3400A05173 /* CouponTableViewCell.swift */; };
+		A4DF767D1FCED2C800D27BFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DF767C1FCED2C800D27BFF /* AppDelegate.swift */; };
+		A4DF76821FCED2C800D27BFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DF76801FCED2C800D27BFF /* Main.storyboard */; };
+		A4DF76841FCED2C800D27BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4DF76831FCED2C800D27BFF /* Assets.xcassets */; };
+		A4DF76871FCED2C800D27BFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DF76851FCED2C800D27BFF /* LaunchScreen.storyboard */; };
+		A4DF76921FCED2C900D27BFF /* LilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DF76911FCED2C900D27BFF /* LilyTests.swift */; };
+		A4DF769D1FCED2C900D27BFF /* LilyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DF769C1FCED2C900D27BFF /* LilyUITests.swift */; };
+		A4DF76AE1FCF920C00D27BFF /* PriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DF76AD1FCF920C00D27BFF /* PriceViewController.swift */; };
+		A4DF76B01FCF967800D27BFF /* PriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DF76AF1FCF967800D27BFF /* PriceTableViewCell.swift */; };
+		A4DF76B31FCF9D6700D27BFF /* MemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DF76B21FCF9D6700D27BFF /* MemberViewController.swift */; };
+		A4DF76B51FCF9D7A00D27BFF /* MemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DF76B41FCF9D7A00D27BFF /* MemberTableViewCell.swift */; };
+		A4DF76BF1FCFA78100D27BFF /* Lily.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4DF76BD1FCFA78100D27BFF /* Lily.xcdatamodeld */; };
+		A4DF76C31FCFB5AB00D27BFF /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DF76C21FCFB5AB00D27BFF /* AddItemViewController.swift */; };
+		A4DF76C51FCFC20600D27BFF /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DF76C41FCFC20600D27BFF /* SaveData.swift */; };
+		A4DF76C91FCFC5E000D27BFF /* UpdateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DF76C81FCFC5E000D27BFF /* UpdateData.swift */; };
+		D44BFBD338D2743FBD19DA1D /* Pods_Lily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D270B62C9381F981527D87B9 /* Pods_Lily.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4DF768E1FCED2C900D27BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DF76711FCED2C800D27BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DF76781FCED2C800D27BFF;
+			remoteInfo = Lily;
+		};
+		A4DF76991FCED2C900D27BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DF76711FCED2C800D27BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DF76781FCED2C800D27BFF;
+			remoteInfo = Lily;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59D14A25B43E6EBC919125F6 /* Pods-Lily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lily.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lily/Pods-Lily.debug.xcconfig"; sourceTree = "<group>"; };
+		A402CDD91FE80100009AA1F3 /* FetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
+		A402CDDB1FE80A1F009AA1F3 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		A41869061FD14DD4005341E7 /* ProfitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitTableViewCell.swift; sourceTree = "<group>"; };
+		A41869081FD14DF0005341E7 /* ProfitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitViewController.swift; sourceTree = "<group>"; };
+		A418690A1FD14E5F005341E7 /* AddBatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBatchViewController.swift; sourceTree = "<group>"; };
+		A418690C1FD14E6E005341E7 /* BatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchViewController.swift; sourceTree = "<group>"; };
+		A418690E1FD17C15005341E7 /* AddBatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBatchTableViewCell.swift; sourceTree = "<group>"; };
+		A41869111FD42C7E005341E7 /* BatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchTableViewCell.swift; sourceTree = "<group>"; };
+		A41B694B1FD120BC00FAD1A8 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		A41B694D1FD120CE00FAD1A8 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
+		A42DBBE9200055A100E51E19 /* DeleteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteData.swift; sourceTree = "<group>"; };
+		A474D3D2202595E800A05173 /* CouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponViewController.swift; sourceTree = "<group>"; };
+		A474D3D520259A7900A05173 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		A474D3D72025B6AF00A05173 /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		A474D3D92025DE3400A05173 /* CouponTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponTableViewCell.swift; sourceTree = "<group>"; };
+		A4DF76791FCED2C800D27BFF /* Lily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DF767C1FCED2C800D27BFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4DF76811FCED2C800D27BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4DF76831FCED2C800D27BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4DF76861FCED2C800D27BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4DF76881FCED2C800D27BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DF768D1FCED2C900D27BFF /* LilyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LilyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DF76911FCED2C900D27BFF /* LilyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilyTests.swift; sourceTree = "<group>"; };
+		A4DF76931FCED2C900D27BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DF76981FCED2C900D27BFF /* LilyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LilyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DF769C1FCED2C900D27BFF /* LilyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilyUITests.swift; sourceTree = "<group>"; };
+		A4DF769E1FCED2C900D27BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DF76AD1FCF920C00D27BFF /* PriceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceViewController.swift; sourceTree = "<group>"; };
+		A4DF76AF1FCF967800D27BFF /* PriceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceTableViewCell.swift; sourceTree = "<group>"; };
+		A4DF76B21FCF9D6700D27BFF /* MemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberViewController.swift; sourceTree = "<group>"; };
+		A4DF76B41FCF9D7A00D27BFF /* MemberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberTableViewCell.swift; sourceTree = "<group>"; };
+		A4DF76BE1FCFA78100D27BFF /* Lily.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lily.xcdatamodel; sourceTree = "<group>"; };
+		A4DF76C21FCFB5AB00D27BFF /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		A4DF76C41FCFC20600D27BFF /* SaveData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
+		A4DF76C81FCFC5E000D27BFF /* UpdateData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateData.swift; sourceTree = "<group>"; };
+		D270B62C9381F981527D87B9 /* Pods_Lily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EE9C640D650A10BD7D532B /* Pods-Lily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lily.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lily/Pods-Lily.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4DF76761FCED2C800D27BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44BFBD338D2743FBD19DA1D /* Pods_Lily.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DF768A1FCED2C900D27BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DF76951FCED2C900D27BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A77C6616113D5A9DA278FB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59D14A25B43E6EBC919125F6 /* Pods-Lily.debug.xcconfig */,
+				E9EE9C640D650A10BD7D532B /* Pods-Lily.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A41869051FD14DBB005341E7 /* Profit */ = {
+			isa = PBXGroup;
+			children = (
+				A41869081FD14DF0005341E7 /* ProfitViewController.swift */,
+				A41869061FD14DD4005341E7 /* ProfitTableViewCell.swift */,
+				A418690C1FD14E6E005341E7 /* BatchViewController.swift */,
+				A41869111FD42C7E005341E7 /* BatchTableViewCell.swift */,
+				A4DF76C21FCFB5AB00D27BFF /* AddItemViewController.swift */,
+				A418690A1FD14E5F005341E7 /* AddBatchViewController.swift */,
+				A418690E1FD17C15005341E7 /* AddBatchTableViewCell.swift */,
+				A402CDDB1FE80A1F009AA1F3 /* EditViewController.swift */,
+			);
+			name = Profit;
+			sourceTree = "<group>";
+		};
+		A41B69481FD1207F00FAD1A8 /* Price */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF76AD1FCF920C00D27BFF /* PriceViewController.swift */,
+				A4DF76AF1FCF967800D27BFF /* PriceTableViewCell.swift */,
+			);
+			name = Price;
+			sourceTree = "<group>";
+		};
+		A41B69491FD1208C00FAD1A8 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF76B21FCF9D6700D27BFF /* MemberViewController.swift */,
+				A4DF76B41FCF9D7A00D27BFF /* MemberTableViewCell.swift */,
+				A41B694B1FD120BC00FAD1A8 /* RecordViewController.swift */,
+				A41B694D1FD120CE00FAD1A8 /* RecordTableViewCell.swift */,
+			);
+			name = Member;
+			sourceTree = "<group>";
+		};
+		A41B694A1FD1209700FAD1A8 /* DataHandler */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF76C41FCFC20600D27BFF /* SaveData.swift */,
+				A4DF76C81FCFC5E000D27BFF /* UpdateData.swift */,
+				A402CDD91FE80100009AA1F3 /* FetchData.swift */,
+				A42DBBE9200055A100E51E19 /* DeleteData.swift */,
+			);
+			name = DataHandler;
+			sourceTree = "<group>";
+		};
+		A474D3D4202595FE00A05173 /* Coupon */ = {
+			isa = PBXGroup;
+			children = (
+				A474D3D2202595E800A05173 /* CouponViewController.swift */,
+				A474D3D92025DE3400A05173 /* CouponTableViewCell.swift */,
+				A474D3D520259A7900A05173 /* ScannerViewController.swift */,
+				A474D3D72025B6AF00A05173 /* QRCodeViewController.swift */,
+			);
+			name = Coupon;
+			sourceTree = "<group>";
+		};
+		A4DF76701FCED2C800D27BFF = {
+			isa = PBXGroup;
+			children = (
+				A4DF767B1FCED2C800D27BFF /* Lily */,
+				A4DF76901FCED2C900D27BFF /* LilyTests */,
+				A4DF769B1FCED2C900D27BFF /* LilyUITests */,
+				A4DF767A1FCED2C800D27BFF /* Products */,
+				6A77C6616113D5A9DA278FB4 /* Pods */,
+				E8D010B24F97C5BE02B75394 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4DF767A1FCED2C800D27BFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF76791FCED2C800D27BFF /* Lily.app */,
+				A4DF768D1FCED2C900D27BFF /* LilyTests.xctest */,
+				A4DF76981FCED2C900D27BFF /* LilyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4DF767B1FCED2C800D27BFF /* Lily */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF767C1FCED2C800D27BFF /* AppDelegate.swift */,
+				A41B69481FD1207F00FAD1A8 /* Price */,
+				A41B69491FD1208C00FAD1A8 /* Member */,
+				A41869051FD14DBB005341E7 /* Profit */,
+				A474D3D4202595FE00A05173 /* Coupon */,
+				A4DF76801FCED2C800D27BFF /* Main.storyboard */,
+				A4DF76831FCED2C800D27BFF /* Assets.xcassets */,
+				A4DF76851FCED2C800D27BFF /* LaunchScreen.storyboard */,
+				A4DF76881FCED2C800D27BFF /* Info.plist */,
+				A4DF76BD1FCFA78100D27BFF /* Lily.xcdatamodeld */,
+				A41B694A1FD1209700FAD1A8 /* DataHandler */,
+			);
+			path = Lily;
+			sourceTree = "<group>";
+		};
+		A4DF76901FCED2C900D27BFF /* LilyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF76911FCED2C900D27BFF /* LilyTests.swift */,
+				A4DF76931FCED2C900D27BFF /* Info.plist */,
+			);
+			path = LilyTests;
+			sourceTree = "<group>";
+		};
+		A4DF769B1FCED2C900D27BFF /* LilyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF769C1FCED2C900D27BFF /* LilyUITests.swift */,
+				A4DF769E1FCED2C900D27BFF /* Info.plist */,
+			);
+			path = LilyUITests;
+			sourceTree = "<group>";
+		};
+		E8D010B24F97C5BE02B75394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D270B62C9381F981527D87B9 /* Pods_Lily.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4DF76781FCED2C800D27BFF /* Lily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DF76A11FCED2C900D27BFF /* Build configuration list for PBXNativeTarget "Lily" */;
+			buildPhases = (
+				39F948F257136237D454F558 /* [CP] Check Pods Manifest.lock */,
+				A4DF76751FCED2C800D27BFF /* Sources */,
+				A4DF76761FCED2C800D27BFF /* Frameworks */,
+				A4DF76771FCED2C800D27BFF /* Resources */,
+				AD34A291CB083E6133D5380B /* [CP] Embed Pods Frameworks */,
+				3669063D171F041BCC5D39AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lily;
+			productName = Lily;
+			productReference = A4DF76791FCED2C800D27BFF /* Lily.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4DF768C1FCED2C900D27BFF /* LilyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DF76A41FCED2C900D27BFF /* Build configuration list for PBXNativeTarget "LilyTests" */;
+			buildPhases = (
+				A4DF76891FCED2C900D27BFF /* Sources */,
+				A4DF768A1FCED2C900D27BFF /* Frameworks */,
+				A4DF768B1FCED2C900D27BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DF768F1FCED2C900D27BFF /* PBXTargetDependency */,
+			);
+			name = LilyTests;
+			productName = LilyTests;
+			productReference = A4DF768D1FCED2C900D27BFF /* LilyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4DF76971FCED2C900D27BFF /* LilyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DF76A71FCED2C900D27BFF /* Build configuration list for PBXNativeTarget "LilyUITests" */;
+			buildPhases = (
+				A4DF76941FCED2C900D27BFF /* Sources */,
+				A4DF76951FCED2C900D27BFF /* Frameworks */,
+				A4DF76961FCED2C900D27BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DF769A1FCED2C900D27BFF /* PBXTargetDependency */,
+			);
+			name = LilyUITests;
+			productName = LilyUITests;
+			productReference = A4DF76981FCED2C900D27BFF /* LilyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4DF76711FCED2C800D27BFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Lily;
+				TargetAttributes = {
+					A4DF76781FCED2C800D27BFF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2W8M759R4E;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					A4DF768C1FCED2C900D27BFF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7D8H6U2PU4;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4DF76781FCED2C800D27BFF;
+					};
+					A4DF76971FCED2C900D27BFF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7D8H6U2PU4;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4DF76781FCED2C800D27BFF;
+					};
+				};
+			};
+			buildConfigurationList = A4DF76741FCED2C800D27BFF /* Build configuration list for PBXProject "Lily" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4DF76701FCED2C800D27BFF;
+			productRefGroup = A4DF767A1FCED2C800D27BFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4DF76781FCED2C800D27BFF /* Lily */,
+				A4DF768C1FCED2C900D27BFF /* LilyTests */,
+				A4DF76971FCED2C900D27BFF /* LilyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4DF76771FCED2C800D27BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DF76871FCED2C800D27BFF /* LaunchScreen.storyboard in Resources */,
+				A4DF76841FCED2C800D27BFF /* Assets.xcassets in Resources */,
+				A4DF76821FCED2C800D27BFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DF768B1FCED2C900D27BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DF76961FCED2C900D27BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3669063D171F041BCC5D39AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lily/Pods-Lily-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39F948F257136237D454F558 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lily-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD34A291CB083E6133D5380B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lily/Pods-Lily-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lily/Pods-Lily-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4DF76751FCED2C800D27BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A418690D1FD14E6E005341E7 /* BatchViewController.swift in Sources */,
+				A4DF76B51FCF9D7A00D27BFF /* MemberTableViewCell.swift in Sources */,
+				A402CDDA1FE80100009AA1F3 /* FetchData.swift in Sources */,
+				A4DF76B31FCF9D6700D27BFF /* MemberViewController.swift in Sources */,
+				A474D3D82025B6AF00A05173 /* QRCodeViewController.swift in Sources */,
+				A41869121FD42C7E005341E7 /* BatchTableViewCell.swift in Sources */,
+				A41869091FD14DF0005341E7 /* ProfitViewController.swift in Sources */,
+				A474D3DA2025DE3400A05173 /* CouponTableViewCell.swift in Sources */,
+				A474D3D620259A7900A05173 /* ScannerViewController.swift in Sources */,
+				A418690F1FD17C15005341E7 /* AddBatchTableViewCell.swift in Sources */,
+				A4DF76C51FCFC20600D27BFF /* SaveData.swift in Sources */,
+				A4DF76AE1FCF920C00D27BFF /* PriceViewController.swift in Sources */,
+				A4DF76C91FCFC5E000D27BFF /* UpdateData.swift in Sources */,
+				A4DF767D1FCED2C800D27BFF /* AppDelegate.swift in Sources */,
+				A42DBBEA200055A100E51E19 /* DeleteData.swift in Sources */,
+				A4DF76C31FCFB5AB00D27BFF /* AddItemViewController.swift in Sources */,
+				A41869071FD14DD4005341E7 /* ProfitTableViewCell.swift in Sources */,
+				A474D3D3202595E800A05173 /* CouponViewController.swift in Sources */,
+				A418690B1FD14E5F005341E7 /* AddBatchViewController.swift in Sources */,
+				A41B694C1FD120BC00FAD1A8 /* RecordViewController.swift in Sources */,
+				A4DF76B01FCF967800D27BFF /* PriceTableViewCell.swift in Sources */,
+				A4DF76BF1FCFA78100D27BFF /* Lily.xcdatamodeld in Sources */,
+				A41B694E1FD120CE00FAD1A8 /* RecordTableViewCell.swift in Sources */,
+				A402CDDC1FE80A1F009AA1F3 /* EditViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DF76891FCED2C900D27BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DF76921FCED2C900D27BFF /* LilyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DF76941FCED2C900D27BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DF769D1FCED2C900D27BFF /* LilyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4DF768F1FCED2C900D27BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DF76781FCED2C800D27BFF /* Lily */;
+			targetProxy = A4DF768E1FCED2C900D27BFF /* PBXContainerItemProxy */;
+		};
+		A4DF769A1FCED2C900D27BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DF76781FCED2C800D27BFF /* Lily */;
+			targetProxy = A4DF76991FCED2C900D27BFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4DF76801FCED2C800D27BFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4DF76811FCED2C800D27BFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4DF76851FCED2C800D27BFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4DF76861FCED2C800D27BFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4DF769F1FCED2C900D27BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2W8M759R4E;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4DF76A01FCED2C900D27BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2W8M759R4E;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4DF76A21FCED2C900D27BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59D14A25B43E6EBC919125F6 /* Pods-Lily.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2W8M759R4E;
+				INFOPLIST_FILE = Lily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lilydaigou.lily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A4DF76A31FCED2C900D27BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9EE9C640D650A10BD7D532B /* Pods-Lily.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2W8M759R4E;
+				INFOPLIST_FILE = Lily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lilydaigou.lily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		A4DF76A51FCED2C900D27BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7D8H6U2PU4;
+				INFOPLIST_FILE = LilyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lily.LilyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lily.app/Lily";
+			};
+			name = Debug;
+		};
+		A4DF76A61FCED2C900D27BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7D8H6U2PU4;
+				INFOPLIST_FILE = LilyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lily.LilyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lily.app/Lily";
+			};
+			name = Release;
+		};
+		A4DF76A81FCED2C900D27BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7D8H6U2PU4;
+				INFOPLIST_FILE = LilyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lily.LilyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Lily;
+			};
+			name = Debug;
+		};
+		A4DF76A91FCED2C900D27BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7D8H6U2PU4;
+				INFOPLIST_FILE = LilyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lily.LilyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Lily;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4DF76741FCED2C800D27BFF /* Build configuration list for PBXProject "Lily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DF769F1FCED2C900D27BFF /* Debug */,
+				A4DF76A01FCED2C900D27BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DF76A11FCED2C900D27BFF /* Build configuration list for PBXNativeTarget "Lily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DF76A21FCED2C900D27BFF /* Debug */,
+				A4DF76A31FCED2C900D27BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DF76A41FCED2C900D27BFF /* Build configuration list for PBXNativeTarget "LilyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DF76A51FCED2C900D27BFF /* Debug */,
+				A4DF76A61FCED2C900D27BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DF76A71FCED2C900D27BFF /* Build configuration list for PBXNativeTarget "LilyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DF76A81FCED2C900D27BFF /* Debug */,
+				A4DF76A91FCED2C900D27BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4DF76BD1FCFA78100D27BFF /* Lily.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4DF76BE1FCFA78100D27BFF /* Lily.xcdatamodel */,
+			);
+			currentVersion = A4DF76BE1FCFA78100D27BFF /* Lily.xcdatamodel */;
+			path = Lily.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A4DF76711FCED2C800D27BFF /* Project object */;
+}
